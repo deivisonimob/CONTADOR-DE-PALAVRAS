@@ -35,5 +35,5 @@ btnEnviar.addEventListener("click", function() {
     for (const palavra in contagemPalavras) {
         repeticoesTotais += contagemPalavras[palavra];
     }
-    resultado.innerHTML += "Repetições totais: " + repeticoesTotais;
+    resultado.innerHTML += "Corretore(as) totais: " + repeticoesTotais;
 });
