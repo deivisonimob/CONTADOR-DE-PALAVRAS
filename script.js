@@ -6,8 +6,10 @@ btnEnviar.addEventListener("click", function() {
     const textoEnviado = texto.value;
     resultado.innerHTML = "Resultado:";
     resultado.innerHTML += "<br>";
-    resultado.innerHTML += "Palavras: " + textoEnviado.split(" ").length + " ";
-    resultado.innerHTML += "Repetições: ";
+    resultado.innerHTML += "Número de corretores(as): " + textoEnviado.split(" ").length + " ";
+    resultado.innerHTML += "<br>";
+    resultado.innerHTML += "Contagem de períodos na roleta: ";
+    resultado.innerHTML += "<br>";
     
     const palavras = textoEnviado.split(" ");
     const contagemPalavras = {}; 
